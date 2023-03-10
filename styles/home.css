@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  /* Base Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Navigation Bar Styles */
+  nav {
+    background-color: rgb(45, 14, 85);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Welcome Section Styles */
+  section.welcome {
+    background-image: url("../Images/laptop\ image.jpg");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  section.welcome h1 {
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  /* About Me Section Styles */
+  section.about-me {
+    margin: 50px;
+  }
+  
+  section.about-me h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section.about-me p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  /* Project Section Styles */
+  section.projects {
+    margin: 50px;
+  }
+  
+  section.projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section.projects .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  section.projects .project img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  section.projects .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  section.projects .project p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  /* Contact Section Styles */
+  section.contact {
+    margin: 50px;
+  }
+  
+  section.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  section.contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section.contact form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  section.contact form input,
+  section.contact form textarea {
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  section.contact form button[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  section.contact form button[type="submit"]:hover {
+    background-color: #555;
+    cursor: pointer;
+  }
+  
+  /* Media Query for Small Screens */
+  @media only screen and (max-width: 767px) {
+  
+    /* Navigation Bar Styles */
+    nav ul{
+      display:none;
+      flex-direction:column;
+    }
+  }
