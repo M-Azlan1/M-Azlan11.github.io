@@ -8,7 +8,7 @@
   
   /* Style the header with a background image */
   header {
-    background-image: url("../Images/image.jpg");
+    background-image: url("../images/image.jpg");
     background-size: cover;
     color: #fff;
     display: flex;
